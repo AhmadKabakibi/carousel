@@ -60,12 +60,6 @@ body {
   max-width: 180px;
 }
 
-.carousel span {
-  font-size: 15px;
-  display: block;
-  margin-top: 10px;
-}
-
 .carousel-item img {
   display: block;
   margin: auto;

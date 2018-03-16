@@ -126,7 +126,7 @@ function setLeftPartWhenLeft(element, child, left, index) {
     element.setAttribute("style", "transform:" + translate);
     element.setAttribute("class", "carousel-item");
     if (index === 0) {
-      z = child[child.length - 1];
+      element = child[child.length - 1];
       index = child.length - 1;
     } else {
       element = child[--index];
