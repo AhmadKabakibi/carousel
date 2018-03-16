@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>carousel javascript</title>
+
+    <!--  Link to google fonts - Robot -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="public/carousel.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>
+                <img src="src/assets/KLM_logo.svg">
+            </h1>
+        </header>
+
+        <div id="larrow" class="arrows" onclick="moveLeft()">
+            <img src="src/assets/larrow.png">
+        </div>
+        <div class="carousel">
+            <div class="carousel-content">
+                <a class="carousel-item" style="transform:translateX(-440px); z-index:-2" id="1">
+                    <img src="src/assets/socia1.png">Lorem Ipsum is simply dummy text of the printing
+                </a>
+                <a class="carousel-item" style="transform:translateX(-220px); z-index:-1" id="2">
+                    <img src="src/assets/socia2.png">Lorem Ipsum is simply dummy text of the printing
+                </a>
+                <a class="active carousel-item" style="transform:translateX(0px); z-index:1" id="3">
+                    <img src="src/assets/socia3.png">Lorem Ipsum is simply dummy text of the printing
+                </a>
+                <a class="carousel-item" style="transform:translateX(220px); z-index:-1" id="4">
+                    <img src="src/assets/socia4.png">Lorem Ipsum is simply dummy text of the printing
+                </a>
+                <a class="carousel-item" style="transform:translateX(440px); z-index:-1" id="5">
+                    <img src="src/assets/socia5.png">Lorem Ipsum is simply dummy text of the printing
+                </a>
+            </div>
+        </div>
+        <div id="rarrow" class="arrows" onclick="moveRight()">
+            <img src="src/assets/rarrow.png">
+        </div>
+
+    </div>
+
+    <script src="public/carousel.min.js" async=true></script>
+</body>
+
+</html>
