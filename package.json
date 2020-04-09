@@ -27,7 +27,7 @@
         "gulp-sourcemaps": "^2.4.1",
         "gulp-uglify": "^2.0.0",
         "jest": "^22.4.2",
-        "jest-cli": "^22.4.2"
+        "jest-cli": "^25.3.0"
     },
     "dependencies": {
         "babel-runtime": "^6.26.0",
